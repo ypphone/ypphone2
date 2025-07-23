@@ -1,0 +1,400 @@
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "SCoreDream";
+}
+* {
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  box-sizing: border-box;
+}
+header {
+  color: #000000;
+  position: sticky;
+  top: 0;
+  display: flex;
+  width: 100%;
+  z-index: 9999;
+  justify-content: center;
+  background-color: #ffffff;
+}
+header .inner {
+  width: 100%;
+  max-width: 940px;
+  padding: 20px 0px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+header .logo {
+  align-items: center;
+}
+header .logo img {
+  width: 120px;
+}
+header .kakao {
+  display: none;
+}
+header .kakao img {
+  width: 28px;
+}
+header.active {
+  background-color: #f24c7b;
+}
+header .pc_phone {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid #f24c7b;
+  padding: 6px 20px;
+  background-color: #f24c7b;
+  border-radius: 16px;
+  font-size: 16px;
+}
+header.active .pc_phone {
+  color: #f24c7b;
+}
+header .mo_phone {
+  display: none;
+}
+header .pc_phone img {
+  width: 14.5px;
+}
+header .mo_phone img {
+  width: 28px;
+}
+section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+section .inner {
+  max-width: 1100px;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+section.s1 {
+  background-color: #f24c7b;
+  padding-top: 139px;
+  padding-bottom: 139px;
+}
+section .img1-1 {
+  width: 32.7rem;
+  align-self: center;
+  margin-bottom: 4.5rem;
+}
+section .img1-2 {
+  width: 86.5rem;
+  align-self: center;
+  margin-bottom: 79px;
+}
+section .img1-3 {
+  width: 47.3rem;
+  align-self: center;
+}
+section.s2 {
+  background-color: #fffbe6;
+  padding-top: 139px;
+  padding-bottom: 139px;
+}
+section .img2-1 {
+  width: 72.8rem;
+  align-self: center;
+  margin-bottom: 4.8rem;
+}
+section .img2-2 {
+  width: 37.3rem;
+  align-self: center;
+  margin-bottom: 4.8rem;
+}
+section .flex {
+  display: flex;
+  gap: 5.5rem;
+}
+section .flex img {
+  width: 27.6rem;
+  height: 44.4rem;
+}
+section .flex img.img2-5 {
+  width: 27.6rem;
+  height: 50rem;
+}
+section.s3 {
+  background-color: #ffffff;
+  padding-top: 139px;
+  padding-bottom: 139px;
+}
+section .img3-1 {
+  width: 72.1rem;
+  align-self: center;
+  margin-bottom: 5.4rem;
+}
+section .img3-2 {
+  width: 35.3rem;
+  align-self: center;
+  margin-bottom: 7.4rem;
+}
+section .img3-3 {
+  width: 82.5rem;
+  align-self: center;
+}
+
+section.s4 {
+  background-color: #f24c7b;
+  padding-top: 139px;
+  padding-bottom: 139px;
+}
+section .img4-1 {
+  width: 39.1rem;
+  align-self: center;
+  margin-bottom: 7rem;
+}
+section .img4-2 {
+  width: 79.8rem;
+  align-self: center;
+  margin-bottom: 3rem;
+}
+section .img4-3 {
+  width: 79.8rem;
+  align-self: center;
+  margin-bottom: 3rem;
+}
+section .img4-4 {
+  width: 79.8rem;
+  align-self: center;
+  margin-bottom: 3rem;
+}
+section .img4-5 {
+  width: 79.8rem;
+  align-self: center;
+}
+section.s5 {
+  background-color: #fffbe6;
+  padding-top: 139px;
+  padding-bottom: 139px;
+}
+section .img5-1 {
+  width: 59.1rem;
+  align-self: center;
+  margin-bottom: 5rem;
+}
+section .img5-2 {
+  width: 66.4rem;
+  align-self: center;
+  margin-bottom: 1.5rem;
+}
+img.img5-2-1 {
+  width: 13.9rem;
+}
+img.img5-3-1 {
+  width: 23.5rem;
+}
+img.img5-4-1 {
+  width: 39.9rem;
+}
+section .x5-2 {
+  position: relative;
+}
+
+section .x5-2 a {
+  top: 1.7rem;
+  right: 11.5rem;
+  position: absolute;
+}
+section .x5-2 a:hover,
+section .x5-2 a:active {
+  filter: brightness(1.5);
+}
+section .img5-3 {
+  width: 66.4rem;
+  align-self: center;
+  margin-bottom: 1.5rem;
+}
+section .x5-3 {
+  position: relative;
+}
+
+section .x5-3 a {
+  top: 2.9rem;
+  right: 12.5rem;
+  position: absolute;
+}
+section .x5-3 a:hover,
+section .x5-3 a:active {
+  filter: brightness(1.5);
+}
+section .img5-4 {
+  width: 66.4rem;
+  align-self: center;
+}
+section .x5-4 {
+  position: relative;
+}
+
+section .x5-4 a {
+  top: 2.9rem;
+  right: 4.3rem;
+  position: absolute;
+}
+section .x5-4 a:hover,
+section .x5-4 a:active {
+  filter: brightness(1.5);
+}
+footer {
+  background-color: #232423;
+  color: #fff;
+  padding: 20px 0px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+footer .p14 {
+  font-size: 14px;
+  font-weight: 300;
+  display: block;
+}
+
+@media screen and (max-width: 1150px) {
+  html {
+    font-size: clamp(2px, 0.87vw, 10px);
+  }
+  header {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  header .mo_phone {
+    display: inline-block;
+  }
+  header .pc_phone {
+    display: none;
+  }
+  header .kakao {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  html {
+    font-size: clamp(2px, 0.9vw, 10px);
+  }
+  section .inner {
+    max-width: 100%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  section .img1-1 {
+    width: 37.6rem;
+  }
+  section .img1-2 {
+    width: 99.5rem;
+    align-self: center;
+    margin-bottom: 79px;
+  }
+  section .img1-3 {
+    width: 54.4rem;
+    align-self: center;
+  }
+  section .img2-1 {
+    width: 72.8rem;
+    align-self: center;
+    margin-bottom: 4.8rem;
+  }
+  section .img2-2 {
+    width: 37.3rem;
+    align-self: center;
+    margin-bottom: 4.8rem;
+  }
+  section .img2-3 {
+    width: 72.8rem;
+  }
+  section .img2-4 {
+    width: 37.3rem;
+  }
+  section .img2-5 {
+    width: 37.3rem;
+  }
+
+  section .img3-1 {
+    width: 80rem;
+
+    margin-bottom: 5.4rem;
+  }
+  section .img3-2 {
+    width: 45.3rem;
+
+    margin-bottom: 7.4rem;
+  }
+  section .img3-3 {
+    width: 100rem;
+  }
+
+  section .img4-1 {
+    width: 48rem;
+
+    margin-bottom: 8rem;
+  }
+  section .img4-2 {
+    width: 100rem;
+
+    margin-bottom: 4rem;
+  }
+  section .img4-3 {
+    width: 100rem;
+
+    margin-bottom: 4rem;
+  }
+  section .img4-4 {
+    width: 100rem;
+
+    margin-bottom: 4rem;
+  }
+  section .img4-5 {
+    width: 100rem;
+  }
+
+  section .img5-1 {
+    width: 84rem;
+
+    margin-bottom: 5rem;
+  }
+  section .img5-2 {
+    width: 95rem;
+
+    margin-bottom: 2.5rem;
+  }
+  section .img5-3 {
+    width: 95rem;
+
+    margin-bottom: 2.5rem;
+  }
+  section .img5-4 {
+    width: 95rem;
+
+    margin-bottom: 2.5rem;
+  }
+  img.img5-2-1 {
+    width: 19.8rem;
+  }
+  img.img5-3-1 {
+    width: 33.6rem;
+  }
+  img.img5-4-1 {
+    width: 57rem;
+  }
+  section .x5-2 a {
+    top: 2.7rem;
+    right: 17.5rem;
+  }
+  section .x5-3 a {
+    top: 4.3rem;
+    right: 18.5rem;
+  }
+  section .x5-4 a {
+    top: 3.6rem;
+    right: 7.3rem;
+  }
+}
